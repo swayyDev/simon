@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign in page</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrapcss.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding:0px;
+			text-decoration: none;
+			background-image: linear-gradient(to right, blue, skyblue);
+		}
+		input{
+			outline: none;
+			width: 350px;
+			height: 50px;
+			padding: 10px;
+			border-radius: 10px;
+			transition: 1.5s;
+			border:1px solid green;
+			box-shadow:0px 0px 5px; 
+			
+		}
+		input:hover{ 
+			border:2px solid green;
+
+		}
+		.form-title{
+			font-family: sans-serif;
+			text-decoration: none;
+			text-align: center;
+			color: #000;
+			text-transform: uppercase;
+			font-size: 30px;
+			font-weight: bold;
+			margin-bottom: 50px;
+			margin-top: 50px;
+			padding-top: 30px;
+
+
+
+		}
+		
+		form{
+			margin-top: 100px;
+			background-color: #ffffff;
+			border-radius: 30px;
+			box-shadow: 0px 0px 10px;
+			border: #ffffff;
+		}
+		.inputt{
+			width: 15px;
+			height: 25px;
+
+		}
+		.sign-in-button{
+			background-color: green;
+			color:#fff;
+			text-decoration: none;
+			width: 250px;
+			height: 45px;
+			border-radius: 10px;
+			border: 1px solid transparent;
+			transition: 1.5s;
+			box-shadow: 0px 0px 5px;
+		}
+		.sign-in-button:hover{
+			border:2px solid #83FF00;
+			font-weight: bold;
+
+
+
+		}
+		.facebook{
+			background-color: #0105A2;
+			width: 100px;
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			outline: none;
+			box-shadow: 0px 0px 5px;
+			border:1px solid blue;
+			border-radius: 5px;
+		}
+		.fa-facebook{
+			color: white;
+
+		}
+		.google{
+			background-color: red;
+			width: 100px;
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			outline: none;
+			box-shadow: 0px 0px 5px;
+			border: 1px solid red ;
+			border-radius: 5px;
+		}
+		.fa-google{
+         color: white;
+         margin-right: 10px;
+		}
+		
+		.linkedin{
+			background-color:#006CFF ;
+			width: 100px;
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			outline: none;
+			box-shadow: 0px 0px 5px;
+			border: 1px solid #006CFF ;
+			border-radius: 5px; 
+
+		}
+		.fa-linkedin{
+			color: #fff;
+			margin-right: 10px;
+		}
+		.github{
+			background-color: #000000;
+			width: 100px;
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			outline: none;
+			box-shadow: 0px 0px 5px;
+			border: 1px solid#000000; 
+			border-radius: 5px;
+		}
+		.fa-github{
+			color: white;
+			margin-right: 10px;
+		}
+		button{
+			text-decoration: none;
+			outline: none;
+		}
+		.side-text{
+			margin-bottom: -300px;
+			line-height: 30px;
+		}
+		.fa-user{
+			font-size: 20px;
+		}
+		.fa-key{
+			font-size: 20px;
+		}
+
+		
+
+		
+			
+
+		
+
+
+
+
+
+
+
+
+
+	</style>
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-5 text-center border-right" >
+		      <form >
+				<h3 class="form-title">Sign In</h3>
+				<div class="form-group">
+				<span class="fa fa-user"><input type="text" name="" placeholder="Username or email"></span>
+			    <br><br>
+				
+				<span class="fa fa-key"><input type="password" name="" placeholder="Password"></span><br>
+			    
+
+                <input  type="radio" name="" class="inputt"><span style="color: grey;">Remember me</span>
+                <p><i style="color: grey;">Forgotten Password?</i></p><br>
+                <button class="sign-in-button">Sign In</button><br>
+                <hr>
+                <button class="facebook" style="text-decoration: none;outline: none; border-color: none; color: white; box-shadow: 0px 0px 5px"><span class="fab fa-facebook"></span>Facebook</button>
+                <button class="google" style="text-decoration: none;outline: none; border-color: none; color: white;font-family: sans-serif;"><span class="fab fa-google" style="margin-right:12px;"></span>Google</button><br>
+                <button class="linkedin" style=" text-decoration: none;outline: none; border-color: none;color: white;"><span class="fab fa-linkedin"></span>Linkedin</button>
+                <button class="github" style="text-decoration: none;outline: none; border-color: none; color: white;"><span class="fab fa-github"></span>Github</button>
+                <p class="main-text" style="color: green; text-transform: capitalize;">Why Create an Account? &#8594;</p>
+                <p class="side-text" style="color: grey">By creating this account, you agreed to our <span style="color: green">privacy policy</span> & <span  style="color: green; " >Cookie Policy</span></p>
+               </form>
+               
+
+                <div class="col-md-4"></div>
+
+		
+			</div> 
+			
+		</div>
+	</div>
+
+
+</body>
+</html>
+
